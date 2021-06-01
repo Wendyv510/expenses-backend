@@ -22,10 +22,6 @@ class Api::V1::TransactionsController < ApplicationController
         render json: @transaction 
     end 
 
-    def destroy 
-
-    end 
-
     private 
 
     def set_account 
