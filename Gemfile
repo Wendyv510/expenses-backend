@@ -12,6 +12,7 @@ gem 'puma', '~> 4.1'
 
 gem 'rack-cors', :require => 'rack/cors'
 gem 'active_model_serializers'
+gem 'thin' 
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
